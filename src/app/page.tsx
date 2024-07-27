@@ -70,7 +70,7 @@ export default function Home() {
 			<section className="py-7">
 				<div className="container prose mx-auto">
 					<p className="type-body-large text-center">
-						You still here? Let's see my work <Link href="/experience">experience</Link>
+						Still with me? Let's see my work <Link href="/experience">experience</Link>
 					</p>
 				</div>
 			</section>
