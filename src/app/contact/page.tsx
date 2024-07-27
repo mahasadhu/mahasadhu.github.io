@@ -19,7 +19,7 @@ export default function ContactPage() {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolorem nesciunt pariatur sit voluptatum id? Sequi iure quaerat odio
 						aspernatur ex ratione vel quam, voluptas aliquid molestias, reiciendis, exercitationem soluta.
 					</p>
-					<div className="my-8 grid w-full grid-cols-2 gap-4">
+					<div className="my-8 grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
 						{data.contactItems.map((value) => (
 							<div key={value.id} className="group flex w-full">
 								<a

@@ -37,7 +37,7 @@ export default function Home() {
 						incidunt qui quae aspernatur id illo. At expedita sunt nobis.
 					</p>
 
-					<div className="my-8 grid grid-cols-2 gap-4">
+					<div className="my-8 grid grid-cols-1 gap-4 lg:grid-cols-2">
 						{data.expertises.map((value) => (
 							<div key={value.id} className="group col-span-1 flex flex-col">
 								<div className="h-full rounded-xl bg-why-us-item-dark p-4 text-text-white group-hover:bg-gradient-to-r group-hover:from-gradient-start-why-us-item group-hover:to-gradient-to-why-us-item">
