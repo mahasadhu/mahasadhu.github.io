@@ -1,8 +1,13 @@
 import Link from 'next/link';
 import Header from '../components/header';
 import { data } from '../data/data';
+import { Metadata } from 'next';
 
 const activeMenu = data.menuExperienceName;
+
+export const metadata: Metadata = {
+	title: 'Experience',
+};
 
 export default function PortfolioPage() {
 	return (

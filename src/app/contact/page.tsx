@@ -1,7 +1,12 @@
+import { Metadata } from 'next';
 import Header from '../components/header';
 import { data } from '../data/data';
 
 const activeMenu = data.menuContactName;
+
+export const metadata: Metadata = {
+	title: 'Contact',
+};
 
 export default function ContactPage() {
 	return (
