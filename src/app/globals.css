@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-active {
+		@apply bg-gradient-to-r from-alpha via-primary-base to-alpha;
+	}
+
+	h1 {
+		@apply text-[32px] font-extrabold leading-[44px] tracking-tight;
+		font-family: var(--font-plus-jakarta-sans);
+	}
+
+	h2 {
+		@apply text-[24px] font-extrabold leading-[32px] tracking-tight;
+		font-family: var(--font-plus-jakarta-sans);
+	}
+
+	h3 {
+		@apply text-[16px] font-bold leading-[20px] tracking-tight;
+		font-family: var(--font-plus-jakarta-sans);
+	}
+
+	p {
+		font-family: var(--font-lato);
+	}
+
+	article {
+		font-family: var(--font-lato);
+	}
+
+	.type-title {
+		@apply text-[19px] font-bold leading-[30px] tracking-tight;
+		font-family: var(--font-plus-jakarta-sans);
+	}
+
+	.type-body-large {
+		@apply text-[17px] font-normal leading-[28px] tracking-tight;
+		font-family: var(--font-lato);
+	}
+
+	.type-body-medium {
+		@apply text-[15px] font-normal leading-[23px] tracking-tight;
+		font-family: var(--font-lato);
+	}
+
+	.type-body-small {
+		@apply text-[12px] font-normal leading-[20px] tracking-tight;
+		font-family: var(--font-lato);
+	}
+}
