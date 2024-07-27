@@ -29,7 +29,7 @@ export default function ContactPage() {
 								>
 									<div className="flex items-center space-x-3">
 										<div className="flex size-16 items-center justify-center rounded-full bg-why-us-item-icon-bg-active lg:size-[64px]">
-											<img src={value.icon} className="p-4" alt="" />
+											<img src={value.icon} className="p-4" alt="contact icon" />
 										</div>
 										<div className="flex flex-col">
 											<p className="type-title">{value.name}</p>

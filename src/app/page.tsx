@@ -15,7 +15,7 @@ export default function Home() {
 				<div className="container mx-auto">
 					<div className="flex flex-row">
 						<div className="basis-1/5">
-							<Image src={avatar} alt="mahasadhu" className="rounded-full" />
+							<Image src={avatar} alt="mahasadhu profile picture" className="rounded-full" />
 						</div>
 						<h1 className="ml-8 basis-4/5 text-text-black">
 							hi! <br />
