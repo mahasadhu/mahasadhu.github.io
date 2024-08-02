@@ -1,11 +1,8 @@
 'use client';
 
-import Image from 'next/image';
 import { data } from '../data/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-// import iconBluesky from "../assets/icons/icon-bluesky.svg";
-import { plus_jakarta_sans } from '../fonts';
 
 export default function Header({ activeMenu, isDarkMode, ref }: { activeMenu: string; isDarkMode: boolean; ref?: React.RefObject<HTMLElement> }) {
 	const [scrollPosition, setScrollPosition] = useState(0);
