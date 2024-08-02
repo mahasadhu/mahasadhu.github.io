@@ -49,50 +49,6 @@ export default function Header({ activeMenu, isDarkMode, ref }: { activeMenu: st
 						</Link>
 					</span>
 				</span>
-
-				{/* <span className="self-center pb-0.5">
-					<Link
-						className={`md:type-title ${plus_jakarta_sans.className} flex items-center rounded-full bg-primary-base px-4 py-2 text-[12px] font-bold text-text-white shadow-lg transition duration-300 ease-in-out hover:shadow-primary-base active:scale-95 md:px-5 md:py-4`}
-						href="/contact"
-						target="_blank"
-					>
-						contact
-					</Link>
-				</span> */}
-				{/* <span className="flex align-middle">
-					<span className="self-center pb-0.5">
-						<Link
-							className={`md:type-title ${plus_jakarta_sans.className} flex items-center rounded-full bg-primary-base px-4 py-2 text-[12px] font-bold text-text-white shadow-lg transition duration-300 ease-in-out hover:shadow-primary-base active:scale-95 md:px-5 md:py-4`}
-							href="/contact"
-							target="_blank"
-						>
-							contact
-						</Link>
-					</span>
-					<div className="dropdown dropdown-end dropdown-bottom md:hidden">
-						<div tabIndex={0} role="button" className="btn m-1 p-3">
-							<span className={`material-symbols-outlined ${isDarkMode ? "text-text-white" : "text-text-black"}`}>menu</span>
-						</div>
-						<ul tabIndex={0} className="dropdown-content menu z-[1] mt-2 w-[80vw] rounded-sm bg-background-white p-2">
-							<li className={`text-lg font-semibold ${plus_jakarta_sans.className}`}>
-								<Link
-									className={`${activeMenu == data.menuHomeName ? "bg-primary-light" : ""} rounded-md p-3 active:bg-primary-light`}
-									href="/"
-								>
-									Home
-								</Link>
-							</li>
-							<li className={`text-lg font-semibold ${plus_jakarta_sans.className}`}>
-								<Link
-									className={`${activeMenu == data.menuExperienceName ? "bg-primary-light" : ""} rounded-md p-3 active:bg-primary-light`}
-									href="/services/"
-								>
-									Experience
-								</Link>
-							</li>
-						</ul>
-					</div>
-				</span> */}
 			</nav>
 		</header>
 	);
